@@ -88,7 +88,7 @@ class Bot(Updater):
       print("\nCommand: start")
       print(update.message.from_user)
       update.message.reply_text(
-          text = "Hello, 此bot可以帮助您自动签到GLaDOS.\n<b>What's GLaODS?\nhttps://nice456.com/index.php/2021/08/03/glados/</b>",
+          text = "Hello, 此bot可以帮助您自动签到GLaDOS.\n<b>What's GLaODS?\nhttps://blog.fhyq-dhy.cloud/index.php/tg_bot/7.html</b>",
           parse_mode = ParseMode.HTML
       )
  
