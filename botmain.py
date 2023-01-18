@@ -34,8 +34,8 @@ class User():
 class Bot(Updater):
     def __init__(
         self,
-        token = "your_tg_bot_token_here",
-        proxy = "socks5h://127.0.0.1:7891/", # 根据需求改host
+        token = "your_tg_bot_token_here", # 修改为你自己的机器人的token
+        proxy = "socks5h://127.0.0.1:7891/", # 根据需求改代理ip和端口
     ):
         """
         token: telegram机器人的token，在telegram上的bot father机器人处获取
